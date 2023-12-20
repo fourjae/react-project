@@ -1,0 +1,53 @@
+/* 버튼 컨테이너 */
+.buttons-container {
+
+  text-align: center; /* 버튼을 가운데 정렬 */
+}
+
+/* 공통 버튼 스타일 */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 30px; /* 버튼 패딩 */
+  font-size: 18px; /* 버튼 글자 크기 */
+  margin: 4px 10px; /* 버튼 사이 간격 */
+  cursor: pointer;
+  border-radius: 30px; /* 원뿔 모양 */
+  box-shadow: 0 4px #999;
+}
+
+  /* 작은 화면에서의 스타일 */
+  @media screen and (max-width: 768px) {
+
+    .button {
+      padding: 10px 20px; /* 버튼 패딩 감소 */
+      font-size: 16px; /* 글자 크기 감소 */
+    }
+  }
+
+
+
+  .button:hover { 
+    background-color: #3e8e41;
+  }
+  
+  .blue-button {
+    background-color: #add8e6; /* 배경색 파란색 */
+  }
+  
+  .blue-button:active {
+    background-color: blue;
+    box-shadow: 0 2px #666; /* 클릭시 그림자 */
+    transform: translateY(2px); /* 클릭시 위치 조정 */
+  }
+  
+  .red-button {
+    background-color: #f08080; /* 배경색 빨간색 */
+  }
+  
+  .red-button:active {
+    background-color: red;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+  }
+  

@@ -1,0 +1,21 @@
+
+
+.gradient-background {
+  background: linear-gradient(
+    to right, 
+    #ffc0cb, /* 연한 핑크 */
+    #fffdd0, /* 크림색 */
+    #add8e6, /* 파란색 */
+    #d3d3d3  /* 연한 회색 */
+  );
+  width: auto; /* 현재 너비에서 30% 늘리기 */
+  height: 30vh; 
+  color: #000000;
+  font-size: 3.5vw; /* 뷰포트 너비에 따라 조정 */
+
+  display: flex; /* 플렉스박스 사용 */
+  justify-content: center; /* 가로 방향 중앙 정렬 */
+  align-items: center; /* 세로 방향 중앙 정렬 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+
+}

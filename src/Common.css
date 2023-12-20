@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #ececec; /* 양 옆의 색깔 */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    width: 50%; /* 중앙 컨텐츠의 너비 */
+    background-color: white; /* 중앙 컨텐츠의 배경색 */
+    padding: 30px; /* 중앙 컨텐츠의 내부 여백 */
+  }
+
+
