@@ -86,3 +86,13 @@
     height: 10px;
     background: #333;
   }
+
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .button-spacer {
+    flex-grow: 1; /* "이전" 버튼이 없을 때 공간 채우기 */
+  }
